@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+background-color: aquamarine;
+align-items: center;
+}
+#form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+#form{
+    border: 2px solid black;
+    box-shadow: 3px 5px 6px 4px grey;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    width: 30%;
+
+}
+#form input{
+    padding: 5px 7px;
+}
+.results{
+    background-color: darkblue;
+    color: cornsilk;
+    width: 35%;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
